@@ -30,6 +30,11 @@ Projektien hakemistossa luodaan Django-projekti:
 
 Startproject sanan jälkeen annetaan projektille sen nimi. Tällä tavalla luodaan kaikki pienemmätkin sovellukset, joista yksi iso projekti koostuu. Siirrytään projektin hakemistoon tarkastelemaan, mitä tiedostoja sieltä löytyy.
 
+
+![calc_app_dir](https://user-images.githubusercontent.com/112398757/236718878-a3af00f4-f100-4ad9-afa8-9f7ce10a4037.JPG)
+
+
+
 Django-sovelluksen mukana tulee aina useampi tiedosto ja yksi erittäin tärkeä on manage.py. Sen avulla sovellus aina pyöräytetään käyntiin ja on projektin hallintaa varten. Settings.py-tiedostossa on sovelluksen sisäisiin asetuksiin liittyviä tärkeitä kohtia.
 
 Middleware pureutuu tietoturvaan ja installed_apps listassa tulee olla listattuna projektiin tehdyt sovellukset, jotta ne pyörivät. Secret_key on käyttöönottoa varten. Debugin oletusarvona on ”True” ja se tulee vaihtaa arvoon ”False” tuotantoasennuksen yhteydessä.
@@ -43,6 +48,10 @@ Projektin ollessa luotu virtuaaliympäristössä voidaan se käynnistää komenn
 Seuraava ilmoitus näkyy käynnistyksen jälkeen: "starting development server at http://127.0.0.1:8000/" Projektin IP-osoite on 127.0.0.1 eli localhost ja portti 8000.
 
 Painamalla linkkiä päätyy selaimessa osoitteeseen 127.0.0.1:8000 ja näet Djangon aloitussivun.
+
+
+![Uploading def_page.JPG…]()
+
 
 Virtuaaliympäristöön pääsee aina komennolla `workon testenv`, jos se deaktivoituu eli `workon <envin nimi>`
 
@@ -160,6 +169,10 @@ MVT = Model View Template. Model linkittyy dataan, Template on normaalia HTML:ä
 Springin MVC -mallissa eli model, view, controller, missä controller vastaa Djangon view’tä.
 
 
+![django](https://user-images.githubusercontent.com/112398757/236718504-53aac8ce-ab57-4979-befb-533808847db9.JPG)
+
+
+
 ### Travello-sovellus
 
 Tehdään seuraava sovellus, kuten aikaisemminkin ja käytetään siinä tällä kertaa valmista mallipohjaa.
@@ -205,6 +218,12 @@ Seuraavaksi luodaan accounts-sovellus, jolla hallitaan rekisteröitymistä, kirj
 Django tarjoaa huomattavan paljon ominaisuuksia, joilla on mahdollista tehdä kohtuullisen helpostikin isoja websovelluksia. Tätä helpottaa projektin sisällä olevat pienet moduulit eli sovellukset, joista muodostuu lopulta yksi iso projekti, mutta hallitun kokoisissa palasissa. Pienet palaset helpottavat laajentamista sekä ylläpitoa huomattavasti. Suurin muistaminen on ehdottomasti siinä, että uusia url-polkuja ei saa unohtaa sisällyttää ”päätiedostoon” sekä laittaa polut oikein sovelluksen omaan urls.py-tiedostoon.
 
 Admin-paneeli tarjoaa paljon muitakin toimintoja, jotka eivät tässä ilmenneet. Aikaisemmin olin käyttänyt kotitehtävässä sqliteä, joka tulee Djangon mukana automaattisesti, joten oli mielekästä kokeilla PostgreSQL:n käyttöä ja sen yhdistämistä Django-projektiin.
+
+Mutkia toki oli matkassa, mutta onneksi Stack Overflow auttoi, kun hätä oli suurin. Importit olivat kunnossa ja asennukset, mutta pitikin osata laittaa VS Coden alalaidasta virtualenvironment käyttöön. Tämän keksimisessä meni kyllä pieni hetki.
+
+
+![vsCode_in_venv](https://user-images.githubusercontent.com/112398757/236719484-3be45344-3eb5-4aba-a7ba-51f00ae76a30.JPG)
+
 
 ### [Video](https://haagahelia-my.sharepoint.com/:v:/r/personal/bgu159_myy_haaga-helia_fi/Documents/Recording-20230508_003808.webm?csf=1&web=1&e=hCssbO)
 
