@@ -160,7 +160,7 @@ MVT = Model View Template. Model linkittyy dataan, Template on normaalia HTML:ä
 Springin MVC -mallissa eli model, view, controller, missä controller vastaa Djangon view’tä.
 
 
-### Travllo-sovellus
+### Travello-sovellus
 
 Tehdään seuraava sovellus, kuten aikaisemminkin ja käytetään siinä tällä kertaa valmista mallipohjaa.
 Travello-sovellukseen tehdään assets-kansio, johon Django kerää kaikki staattiset tiedostot komennolla `python manage.py collectstatic`. Tämä auttaa erilaisten tyylikirjastojen ja kuvien käyttämisessä.
@@ -194,7 +194,21 @@ Anna käyttäjänimi, sähköposti ja salasana superuserille. Selaimessa kohteid
 Nyt voimme lisätä kohteita, joten admin.py-tiedostoon täytyy lisätä tarvittavat tiedot. Selaimessa voit lisätä kohteita antamalla vastaavat tiedot kuin luokassa. Kuvat lisätään käyttäjien toimesta, joten joudut tekemään muutoksia settings.py-tiedostoon ja luodaan uusi mediakansion, josta lopulta kuvat haetaan.
 Selaimen kautta lisätyt kohteet näkyvät myös tietokannassa, jota voi tarkastella pgAdmin4 avulla.
 
+
+### Accounts-sovellus
+
 Seuraavaksi luodaan accounts-sovellus, jolla hallitaan rekisteröitymistä, kirjautumista ja uloskirjautumista. Urls.py-tiedostoon accounts-sovelluksessa täytyy luoda polut, ja urls.py (techproject)-tiedostoon täytyy sisällyttää accounts-sovelluksen urls-tiedosto. Muutetaan index.html-tiedostossa valikon sisältöä, jotta siinä on rekisteröityminen ja kirjautuminen. Molemmat löytyvät accounts-sovelluksen alla. Uudet käyttäjät rekisteröityvät lomakkeen kautta ja näin ne lisätään myös tietokantaan.
 
-Django tarjoaa huomattavan paljon ominaisuuksia, joilla on mahdollista tehdä kohtuullisen helpostikin isoja websovelluksia. Tätä helpottaa projektin sisällä olevat pienet moduulit eli sovellukset, joista muodostuu lopulta yksi iso projekti, mutta hallitun kokoisissa palasissa. Pienet palaset helpottavat laajentamista sekä ylläpitoa huomattavasti. Suurin muistamine on ehdottomasti siinä, että ei saa unohtaa sisällyttää uusia url-polkuja ”päätiedostoon” sekä laittaa polut oikein sovelluksen omaan urls.py-tiedostoon.
 
+### Lopuksi
+
+Django tarjoaa huomattavan paljon ominaisuuksia, joilla on mahdollista tehdä kohtuullisen helpostikin isoja websovelluksia. Tätä helpottaa projektin sisällä olevat pienet moduulit eli sovellukset, joista muodostuu lopulta yksi iso projekti, mutta hallitun kokoisissa palasissa. Pienet palaset helpottavat laajentamista sekä ylläpitoa huomattavasti. Suurin muistaminen on ehdottomasti siinä, että uusia url-polkuja ei saa unohtaa sisällyttää ”päätiedostoon” sekä laittaa polut oikein sovelluksen omaan urls.py-tiedostoon.
+
+Admin-paneeli tarjoaa paljon muitakin toimintoja, jotka eivät tässä ilmenneet. Aikaisemmin olin käyttänyt kotitehtävässä sqliteä, joka tulee Djangon mukana automaattisesti, joten oli mielekästä kokeilla PostgreSQL:n käyttöä ja sen yhdistämistä Django-projektiin.
+
+### Lähteet
+
+- [Django](https://www.djangoproject.com/). Luettu 05.05.2023.
+- [Mosh Hamedani - Python Django Tutorial for Beginners ](https://www.youtube.com/watch?v=rHux0gMZ3Eg). Katsottu 05.05.2023.
+- [Navin Reddy - Django Tutorial for Beginners](https://www.youtube.com/watch?v=OTmQOjsl0eg). Katsottu 06.05.2023.
+- [Wikipedia - Django (web framework)](https://en.wikipedia.org/wiki/Django_(web_framework)). Luettu 08.05.2023.
