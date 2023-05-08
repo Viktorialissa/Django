@@ -207,8 +207,6 @@ Django tarjoaa huomattavan paljon ominaisuuksia, joilla on mahdollista tehdä ko
 Admin-paneeli tarjoaa paljon muitakin toimintoja, jotka eivät tässä ilmenneet. Aikaisemmin olin käyttänyt kotitehtävässä sqliteä, joka tulee Djangon mukana automaattisesti, joten oli mielekästä kokeilla PostgreSQL:n käyttöä ja sen yhdistämistä Django-projektiin.
 
 ### [Video](https://haagahelia-my.sharepoint.com/:v:/r/personal/bgu159_myy_haaga-helia_fi/Documents/Recording-20230508_003808.webm?csf=1&web=1&e=hCssbO)
-Video:
-https://haagahelia-my.sharepoint.com/:v:/r/personal/bgu159_myy_haaga-helia_fi/Documents/Recording-20230508_003808.webm?csf=1&web=1&e=hCssbO
 
 ### Lähteet
 
