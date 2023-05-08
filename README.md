@@ -50,9 +50,6 @@ Seuraava ilmoitus näkyy käynnistyksen jälkeen: "starting development server a
 Painamalla linkkiä päätyy selaimessa osoitteeseen 127.0.0.1:8000 ja näet Djangon aloitussivun.
 
 
-![Uploading def_page.JPG…]()
-
-
 Virtuaaliympäristöön pääsee aina komennolla `workon testenv`, jos se deaktivoituu eli `workon <envin nimi>`
 
 
@@ -206,6 +203,19 @@ Anna käyttäjänimi, sähköposti ja salasana superuserille. Selaimessa kohteid
 
 Nyt voimme lisätä kohteita, joten admin.py-tiedostoon täytyy lisätä tarvittavat tiedot. Selaimessa voit lisätä kohteita antamalla vastaavat tiedot kuin luokassa. Kuvat lisätään käyttäjien toimesta, joten joudut tekemään muutoksia settings.py-tiedostoon ja luodaan uusi mediakansion, josta lopulta kuvat haetaan.
 Selaimen kautta lisätyt kohteet näkyvät myös tietokannassa, jota voi tarkastella pgAdmin4 avulla.
+
+> Kohteen lisäys selaimessa
+
+![Adding_destination_all_fields](https://user-images.githubusercontent.com/112398757/236721246-af5a6d4c-8b4f-4af0-a3ca-ae479ca22416.JPG)
+
+
+> pgAdmin
+
+![added_destinations_pgAdmin4](https://user-images.githubusercontent.com/112398757/236721321-72f7d13b-ea2b-448d-911b-3ab099f0ae67.JPG)
+
+> Lisätyt kohteet selaimessa
+
+![destinations_wPictures_browser](https://user-images.githubusercontent.com/112398757/236721621-a3762e01-5f6b-49b7-a490-cb91b0e8d81e.JPG)
 
 
 ### Accounts-sovellus
