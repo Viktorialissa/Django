@@ -2,7 +2,7 @@
 
 # Django
 
-Seminaarityön aiheena oli tutustua Django-kehysjärjestelmään eli tarkoituksena ei ole luoda maailmaa järisyttävää monimutkaista koodia vaan perehtyä Djangoon ja ymmärtää paremmin sen toimintaa. Django on ilmainen avoimen lähdekoodin Python-pohjainen verkkokehys, joka noudattaa model-template-view -arkkitehtuurimallia. Django luotiin jo vuonna 2003 ja julkaistiin käyttöön vuonna 2005. Django on saanut nimensä kitaristi Django Reinhardtin mukaan.
+Seminaarityön aiheena oli tutustua Django-kehysjärjestelmään eli tarkoituksena ei ole luoda maailmaa järisyttävää monimutkaista koodia vaan perehtyä Djangoon ja ymmärtää paremmin sen toimintaa. Django on ilmainen avoimen lähdekoodin Python-pohjainen verkkokehys, joka noudattaa model-template-view -arkkitehtuurimallia. Django luotiin jo vuonna 2003 ja julkaistiin käyttöön vuonna 2005. Django on saanut nimensä kitaristi Django Reinhardtin mukaan. Työn tekemisessä on käytetty [tutoriaalia](https://www.youtube.com/watch?v=OTmQOjsl0eg) apuna.
 
 ### Setup ja Djangon asennus
 
