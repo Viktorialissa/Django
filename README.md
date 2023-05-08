@@ -236,6 +236,19 @@ Selaimen kautta lisätyt kohteet näkyvät myös tietokannassa, jota voi tarkast
 
 Seuraavaksi luodaan accounts-sovellus, jolla hallitaan rekisteröitymistä, kirjautumista ja uloskirjautumista. Urls.py-tiedostoon accounts-sovelluksessa täytyy luoda polut, ja urls.py (techproject)-tiedostoon täytyy sisällyttää accounts-sovelluksen urls-tiedosto. Muutetaan index.html-tiedostossa valikon sisältöä, jotta siinä on rekisteröityminen ja kirjautuminen. Molemmat löytyvät accounts-sovelluksen alla. Uudet käyttäjät rekisteröityvät lomakkeen kautta ja näin ne lisätään myös tietokantaan.
 
+Lomake näyttää selaimessa tältä
+
+![register_form](https://user-images.githubusercontent.com/112398757/236723929-ac0c0011-8430-419c-9193-fa2e951b3624.JPG)
+
+
+
+Ja itse koodissa on käytetty erilaisia vertailuja salasanan oikeellisuudesta tai käyttäjänimen uniikkiudesta.
+Käyttäjän rekisteröidyttyä tämä voi kirjautua sisään login-sivun kautta.
+
+
+![user_created_login](https://user-images.githubusercontent.com/112398757/236724077-d9733f66-1f1b-4dda-8e25-3ebfc64f7908.JPG)
+
+
 > Käyttäjät näkyvät tietokannassa
 
 ![users_in_db](https://user-images.githubusercontent.com/112398757/236723812-8220776a-7e18-474c-bd6f-04b3866ad9f8.JPG)
