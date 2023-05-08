@@ -205,6 +205,9 @@ Suoritetaan komento `python manage.py sqlmigrate travello 0001`, jossa travello 
 Tarkistetaan tilanne pgAdmin4:lla. Se näyttää luodun Destination-taulun ja kyseisen taulun omaavan vaadittavat sarakkeet, jotka täsmäävät destination-luokalla. ORM:n (Object Relational Mapper) avulla saimme luokasta tehtyä tietokantataulun.
 
 
+![pgAdmin4_rows](https://user-images.githubusercontent.com/112398757/236722817-cf2cd761-a382-4620-b4a1-dcb28a987049.JPG)
+
+
 ### Admin-paneeli
 
 Admin-paneeliin pääset osoitteessa localhost:8000/admin, jonka Django tarjoaa automaattisesti. Ensin luodaan superuser admin-paneelia varten komennolla:
