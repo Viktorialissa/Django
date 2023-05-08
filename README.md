@@ -50,6 +50,9 @@ Seuraava ilmoitus näkyy käynnistyksen jälkeen: "starting development server a
 Painamalla linkkiä päätyy selaimessa osoitteeseen 127.0.0.1:8000 ja näet Djangon aloitussivun.
 
 
+![start_page_default](https://user-images.githubusercontent.com/112398757/236722371-c2be29d3-1da7-4d36-9aff-2a56dbc8a4d7.JPG)
+
+
 Virtuaaliympäristöön pääsee aina komennolla `workon testenv`, jos se deaktivoituu eli `workon <envin nimi>`
 
 
@@ -160,7 +163,15 @@ def add(request):
 return render(request, "result.html",{'result': res})
 ```
 
+![form_method_post_adding_csrfToken](https://user-images.githubusercontent.com/112398757/236722566-85ceb928-c2ed-4f60-acd3-9142b98c7bc3.JPG)
+
+
 Djangon middlewareen kuuluu esimerkiksi CsrfViewMiddleware, jota voidaan käyttää käyttäjälle turvallisemman koodin luomiseksi. Tämä yhdessä post-menetelmän kanssa tarkoittaa, että käyttäjä ei lähetä erilaisia tietoja urlissa.
+
+
+![settings_middleware_csrfView](https://user-images.githubusercontent.com/112398757/236722431-f8614f77-084c-4938-8f7f-280c4adf0f50.JPG)
+
+
 
 MVT = Model View Template. Model linkittyy dataan, Template on normaalia HTML:ää, CSS:ää, JS:ää, DTL (Django Template Language) ja View yhdistää kaksi edellä mainittua kommunikoiden samalla urls.py-tiedostojen kanssa. View ilmentää liiketoimintamallia.
 Springin MVC -mallissa eli model, view, controller, missä controller vastaa Djangon view’tä.
